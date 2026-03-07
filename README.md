@@ -52,7 +52,7 @@ Deployed microservices using Kubernetes with scaling and load balancing.
 ## 📫 Connect With Me
 
 LinkedIn: https://linkedin.com/in/akashpedraj  
-Email: akashpedraj.dev@gmail.com
+Email: akashpedraj121@gmail.com
 
 ---
 
