@@ -1,16 +1,59 @@
-## Hi there 👋
+# Hi 👋 I'm Akash Pedraj
 
-<!--
-**AkashPedraj/AkashPedraj** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🚀 DevOps Engineer | AWS | Docker | Kubernetes | Terraform | CI/CD
 
-Here are some ideas to get you started:
+I am a passionate DevOps Engineer with hands-on experience in cloud infrastructure, containerization, and CI/CD automation. I enjoy building scalable and reliable systems using modern DevOps tools.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🔧 Skills & Technologies
+
+• Cloud: AWS (EC2, S3, IAM, VPC, RDS)  
+• Containerization: Docker  
+• Orchestration: Kubernetes  
+• Infrastructure as Code: Terraform  
+• CI/CD: Jenkins, GitHub Actions  
+• Version Control: Git & GitHub  
+• OS: Linux  
+• Scripting: Bash  
+
+---
+
+## 📂 DevOps Projects
+
+### 🔹 AWS 3 Tier Architecture Deployment
+Deployed a scalable web application using EC2, Load Balancer, and RDS.
+
+### 🔹 CI/CD Pipeline using Jenkins
+Automated application build, test, and deployment pipeline using Jenkins.
+
+### 🔹 Dockerized Application
+Containerized a Node.js application using Docker and deployed it on cloud infrastructure.
+
+### 🔹 Kubernetes Deployment
+Deployed microservices using Kubernetes with scaling and load balancing.
+
+---
+
+## 📊 GitHub Stats
+
+![Akash's GitHub stats](https://github-readme-stats.vercel.app/api?username=AkashPedraj&show_icons=true)
+
+---
+
+## 🌱 Currently Learning
+
+• Advanced Kubernetes  
+• Terraform automation  
+• AWS DevOps practices  
+
+---
+
+## 📫 Connect With Me
+
+LinkedIn: https://linkedin.com/in/akashpedraj  
+Email: akashpedraj.dev@gmail.com
+
+---
+
+⭐ Open to DevOps opportunities
