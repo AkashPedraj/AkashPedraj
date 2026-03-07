@@ -37,7 +37,7 @@ Deployed microservices using Kubernetes with scaling and load balancing.
 
 ## 📊 GitHub Stats
 
-![Akash's GitHub stats](https://github-readme-stats.vercel.app/api?username=AkashPedraj&show_icons=true)
+![Akash's GitHub stats](https://github-readme-stats.vercel.app/api?username=AkashPedraj&show_icons=true&theme=default)
 
 ---
 
