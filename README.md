@@ -1,57 +1,101 @@
-# Hi 👋 I'm Akash Pedraj
-
-🚀 DevOps Engineer | AWS | Docker | Kubernetes | Terraform | CI/CD
-
-I am a passionate DevOps Engineer with hands-on experience in cloud infrastructure, containerization, and CI/CD automation. I enjoy building scalable and reliable systems using modern DevOps tools.
+<h1 align="center">Hi 👋, I'm Akash Pedraj</h1>
+<h3 align="center">DevOps Engineer | AWS | Kubernetes | CI/CD | Terraform</h3>
 
 ---
 
-## 🔧 Skills & Technologies
+## 💡 About Me
 
-• Cloud: AWS (EC2, S3, IAM, VPC, RDS)  
-• Containerization: Docker  
-• Orchestration: Kubernetes  
-• Infrastructure as Code: Terraform  
-• CI/CD: Jenkins, GitHub Actions  
-• Version Control: Git & GitHub  
-• OS: Linux  
-• Scripting: Bash  
+DevOps Engineer with hands-on experience in designing CI/CD pipelines, deploying containerized microservices, and building scalable cloud-native applications on AWS.
+
+I specialize in Kubernetes (EKS), Infrastructure as Code using Terraform, and automation using modern DevOps tools. I focus on improving deployment efficiency, system reliability, and scalability.
+
+- 🔭 Working on real-world DevOps projects
+- 🌱 Currently learning Advanced Kubernetes & Terraform Automation
+- 💬 Ask me about AWS, Kubernetes, CI/CD, Docker
+- 🎯 Goal: To build and manage large-scale cloud systems
+
+---
+
+## 🛠️ Skills & Technologies
+
+### ☁️ Cloud
+- AWS (EC2, VPC, IAM, S3, RDS, ECR, EKS, Route 53)
+
+### 📦 Containers & Orchestration
+- Docker
+- Kubernetes (EKS)
+
+### ⚙️ Infrastructure as Code
+- Terraform
+- Ansible
+
+### 🔄 CI/CD
+- Jenkins
+- GitHub Actions
+
+### 📊 Monitoring
+- Prometheus
+- Grafana
+
+### 🧑‍💻 Tools
+- Git, Linux, Shell Scripting
 
 ---
 
 ## 📂 DevOps Projects
 
-### 🔹 AWS 3 Tier Architecture Deployment
-Deployed a scalable web application using EC2, Load Balancer, and RDS.
+### 🔹 Cloud-Native Food Delivery Platform (Zomato Clone)
+🔗 https://github.com/AkashPedraj/FoodAppZomato-DevOps
 
-### 🔹 CI/CD Pipeline using Jenkins
-Automated application build, test, and deployment pipeline using Jenkins.
-
-### 🔹 Dockerized Application
-Containerized a Node.js application using Docker and deployed it on cloud infrastructure.
-
-### 🔹 Kubernetes Deployment
-Deployed microservices using Kubernetes with scaling and load balancing.
+- Designed and implemented a multi-stage CI/CD pipeline reducing deployment time by **40%**
+- Containerized microservices using Docker and deployed on AWS EKS
+- Implemented Kubernetes HPA achieving **99.9% availability**
+- Integrated Prometheus and Grafana for monitoring and observability
 
 ---
 
-## 📊 GitHub Stats
+### 🔹 Online Ticketing Platform – DevOps Automation
+🔗 https://github.com/AkashPedraj/OnlineTicketPlatform-MyDeployment
 
+- Built Jenkins pipelines for automated build and deployment
+- Provisioned infrastructure using Terraform modules
+- Configured systems using Ansible
+- Deployed application on AWS EKS for scalability and reliability
 
-![GitHub Streak](https://streak-stats.demolab.com?user=AkashPedraj&theme=tokyonight)
+---
+
+### 🔹 AWS 3-Tier Web Application Deployment
+🔗 https://github.com/AkashPedraj/AWS3TierApp-MyDeployment
+
+- Designed secure VPC architecture with public and private subnets
+- Deployed scalable EC2 instances integrated with RDS
+- Configured Route 53 for domain management
+- Implemented IAM roles with least-privilege access
+
+---
+
+## 📌 Key Achievements
+
+- 🚀 Reduced deployment time by **40%** using CI/CD pipelines  
+- ⚙️ Automated infrastructure provisioning with Terraform  
+- ☸️ Achieved **99.9% availability** using Kubernetes scaling  
+- 📊 Implemented monitoring using Prometheus & Grafana  
+
+---
 
 ## 🌱 Currently Learning
 
-• Advanced Kubernetes  
-• Terraform automation  
-• AWS DevOps practices  
+- Advanced Kubernetes (Helm, Ingress, Production setups)
+- Terraform Modules & Automation
+- AWS DevOps Tools (CodePipeline, CodeBuild)
 
 ---
 
 ## 📫 Connect With Me
 
-🔗 LinkedIn: https://linkedin.com/in/akashpedraj  
-📧 Email: akashpedraj121@gmail.com
+- 🔗 LinkedIn: https://linkedin.com/in/akash-pedraj  
+- 📧 Email: akashpedraj121@gmail.com  
+
 ---
 
-⭐ Open to DevOps opportunities
+⭐ **Open to DevOps Opportunities | Actively Looking for Roles**
