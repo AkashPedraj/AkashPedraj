@@ -2,7 +2,6 @@
 <h3 align="center">DevOps Engineer | AWS | Kubernetes | CI/CD | Docker | Terraform</h3>
 
 <p align="center">
-<a href="https://linkedin.com/in/akash-pedraj"><img src="https://img.shields.io/badge/LinkedIn-Akash%20Pedraj-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="mailto:akashpedraj121@gmail.com"><img src="https://img.shields.io/badge/Email-akashpedraj121@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 <a href="https://github.com/AkashPedraj"><img src="https://img.shields.io/badge/GitHub-AkashPedraj-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
 </p>
