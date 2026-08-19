@@ -4,7 +4,7 @@
 
 ### 🚀 DevOps Engineer | AWS Cloud | Kubernetes | Terraform | CI/CD | Docker
 
-<p>
+<p align="center">
   <a href="mailto:akashpedraj121@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
@@ -13,7 +13,10 @@
   </a>
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=220&section=header&text=DevOps%20%7C%20Cloud%20%7C%20Automation&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=38" width="100%" />
+<img
+src="https://capsule-render.vercel.app/api?type=waving&color=0:1F2933,25:4B5563,50:9CA3AF,75:6B7280,100:111827&height=230&section=header&text=DevOps%20%7C%20Cloud%20%7C%20Automation&fontSize=40&fontColor=FFFFFF&fontAlignY=42&animation=fadeIn&desc=Building%20Reliable%20%7C%20Scalable%20%7C%20Automated%20Cloud%20Infrastructure&descAlignY=64&descSize=17&descColor=E5E7EB"
+width="100%"
+/>
 
 </div>
 
@@ -25,7 +28,7 @@ I'm a **DevOps Engineer with 3+ years of experience** working on cloud infrastru
 
 I enjoy building reliable and automated systems that reduce manual effort and make application deployments **faster, safer, and more repeatable**.
 
-Currently working with:
+### 🔧 What I Work With
 
 * ☁️ **AWS Cloud**
 * ☸️ **Kubernetes / Amazon EKS**
@@ -33,34 +36,29 @@ Currently working with:
 * 🔄 **Jenkins / GitHub Actions**
 * 🌱 **ArgoCD / GitOps**
 * 🏗️ **Terraform / Ansible**
-* 📦 **Helm**
+* ⛵ **Helm**
 * 📊 **Prometheus / Grafana**
 * 🔐 **DevSecOps / Security Automation**
 
-> 💡 My focus: **Automate → Deploy → Monitor → Secure → Improve**
+> 💡 **Automate → Deploy → Monitor → Secure → Improve**
 
 ---
 
-## 🧑‍💼 Professional Experience
+# 🧑‍💼 Professional Experience
 
 ### DevOps Engineer — Infosys
 
 **April 2023 – Present**
 
-My professional experience includes:
-
-* Designing and maintaining automated **CI/CD pipelines**
-* Managing cloud infrastructure on **AWS**
-* Provisioning infrastructure using **Terraform**
-* Managing containerized workloads on **Amazon EKS**
-* Implementing **GitOps workflows using ArgoCD**
-* Building Kubernetes deployments using **Helm**
-* Implementing monitoring with **Prometheus, Grafana and CloudWatch**
-* Integrating security tools such as **SonarQube and Trivy**
-* Implementing AWS **IAM least-privilege** practices
-* Using **AWS Secrets Manager** for secure application deployments
-* Troubleshooting application, infrastructure and deployment issues
-* Working with development, QA and operations teams in Agile/Scrum environments
+* Designed and maintained automated **CI/CD pipelines** using Jenkins, GitHub Actions and ArgoCD.
+* Automated AWS infrastructure provisioning using reusable **Terraform modules**.
+* Managed containerized applications on **Amazon EKS** using Docker, Kubernetes and Helm.
+* Implemented **GitOps deployment workflows** using ArgoCD.
+* Configured monitoring and observability using **Prometheus, Grafana and AWS CloudWatch**.
+* Integrated **SonarQube and Trivy** into CI/CD workflows for DevSecOps.
+* Implemented AWS **IAM least-privilege** practices and AWS Secrets Manager.
+* Troubleshot deployment, infrastructure and application issues.
+* Collaborated with development, QA and operations teams in Agile/Scrum environments.
 
 ---
 
@@ -70,9 +68,7 @@ My professional experience includes:
 
 ### ☁️ Cloud
 
-<a href="https://aws.amazon.com/">
 <img src="https://skillicons.dev/icons?i=aws" />
-</a>
 
 ### ☸️ Containers & Orchestration
 
@@ -80,7 +76,7 @@ My professional experience includes:
 
 ### 🔄 CI/CD & GitOps
 
-<img src="https://skillicons.dev/icons?i=jenkins,githubactions,gitlab,github" />
+<img src="https://skillicons.dev/icons?i=jenkins,githubactions,github" />
 
 ### 🏗️ Infrastructure as Code
 
@@ -90,11 +86,11 @@ My professional experience includes:
 
 <img src="https://skillicons.dev/icons?i=prometheus,grafana" />
 
-### 🐧 Operating Systems & Scripting
+### 🐧 Linux & Scripting
 
 <img src="https://skillicons.dev/icons?i=linux,bash,python" />
 
-### 🔧 Development & Configuration
+### 🔧 Version Control & Configuration
 
 <img src="https://skillicons.dev/icons?i=git,yaml,json" />
 
@@ -102,71 +98,110 @@ My professional experience includes:
 
 ---
 
-# 🚀 DevOps Engineering Workflow
+# ⚙️ DevOps Engineering Workflow
 
 <div align="center">
 
-```mermaid
-flowchart LR
-    A[👨‍💻 Developer] --> B[GitHub]
-    B --> C[Jenkins / GitHub Actions]
-    C --> D[SonarQube]
-    D --> E[Docker Build]
-    E --> F[Trivy Security Scan]
-    F --> G[Container Registry]
-    G --> H[ArgoCD / Helm]
-    H --> I[Kubernetes / Amazon EKS]
-    I --> J[Prometheus]
-    J --> K[Grafana]
-    I --> L[AWS CloudWatch]
+```text
+                    ┌─────────────────┐
+                    │   👨‍💻 Developer  │
+                    └────────┬────────┘
+                             │
+                             ▼
+                    ┌─────────────────┐
+                    │     GitHub      │
+                    └────────┬────────┘
+                             │
+                             ▼
+                 ┌───────────────────────┐
+                 │ Jenkins / GitHub      │
+                 │      Actions          │
+                 └───────────┬───────────┘
+                             │
+                    ┌────────┴────────┐
+                    ▼                 ▼
+              ┌──────────┐      ┌──────────┐
+              │ SonarQube │      │  Trivy   │
+              │Code Scan  │      │Security  │
+              └─────┬────┘      └─────┬────┘
+                    │                 │
+                    └────────┬────────┘
+                             ▼
+                    ┌─────────────────┐
+                    │ Docker Build    │
+                    └────────┬────────┘
+                             │
+                             ▼
+                    ┌─────────────────┐
+                    │ Container       │
+                    │ Registry        │
+                    └────────┬────────┘
+                             │
+                             ▼
+                    ┌─────────────────┐
+                    │ ArgoCD / Helm   │
+                    │    GitOps       │
+                    └────────┬────────┘
+                             │
+                             ▼
+                    ┌─────────────────┐
+                    │ Kubernetes / EKS│
+                    └────────┬────────┘
+                             │
+                 ┌───────────┴───────────┐
+                 ▼                       ▼
+          ┌──────────────┐       ┌──────────────┐
+          │ Prometheus   │       │ AWS          │
+          │ + Grafana    │       │ CloudWatch   │
+          └──────────────┘       └──────────────┘
 ```
 
 </div>
 
-### 🔁 Typical Deployment Flow
+### 🔁 Deployment Lifecycle
 
-**Code → Git → CI Pipeline → Code Quality → Security Scan → Docker Image → Registry → GitOps → Kubernetes → Monitoring**
+**Code → Git → CI → Code Quality → Security Scan → Docker → Registry → GitOps → Kubernetes → Monitoring**
 
 ---
 
-# 📂 Featured Projects
+# 🚀 Featured Projects
 
 ## 🏦 Global Banking Infrastructure Automation Platform
 
 **AWS | Terraform | Jenkins | Docker | Kubernetes | EKS | Helm | ArgoCD | Prometheus | Grafana**
 
-Designed an automated cloud-native infrastructure and deployment platform.
+Designed and automated a cloud-native infrastructure and deployment platform.
 
-### What I implemented
+### Key Contributions
 
-* 🏗️ Reusable **Terraform modules** for AWS infrastructure
-* 🔄 End-to-end **Jenkins CI/CD pipelines**
-* 🐳 Dockerized microservices
-* ☸️ Kubernetes workloads on **Amazon EKS**
-* ⛵ Helm-based application deployments
-* 🌱 GitOps deployment using **ArgoCD**
-* 📊 Prometheus and Grafana monitoring
-* ☁️ AWS CloudWatch observability
+* 🏗️ Created reusable **Terraform modules** for AWS infrastructure.
+* 🔄 Implemented end-to-end **Jenkins CI/CD pipelines**.
+* 🐳 Containerized microservices using Docker.
+* ☸️ Deployed applications on **Amazon EKS**.
+* ⛵ Used **Helm** for Kubernetes application deployment.
+* 🌱 Implemented **GitOps using ArgoCD**.
+* 📊 Implemented monitoring using Prometheus and Grafana.
+* ☁️ Integrated AWS CloudWatch for infrastructure visibility.
 
 ---
 
-## 🏥 Healthcare Application CI/CD & Monitoring
+## 🏥 Healthcare Application CI/CD & Monitoring Solution
 
 **Jenkins | Terraform | Ansible | Kubernetes | Helm | SonarQube | Trivy | Prometheus | Grafana**
 
 Built an automated CI/CD and monitoring solution for containerized applications.
 
-### Highlights
+### Key Contributions
 
-* 🔄 Automated application build and deployment using Jenkins
-* 🏗️ Infrastructure provisioning using Terraform
-* ⚙️ Server configuration using Ansible
-* ☸️ Kubernetes workload management
-* ⛵ Helm-based deployments
-* 🔍 SonarQube code-quality analysis
-* 🛡️ Trivy container security scanning
-* 📊 Prometheus + Grafana monitoring
-* 🚨 Proactive alerting and infrastructure visibility
+* 🔄 Automated application build and deployment using Jenkins.
+* 🏗️ Provisioned infrastructure using Terraform.
+* ⚙️ Automated server configuration using Ansible.
+* ☸️ Managed Kubernetes workloads.
+* ⛵ Created Helm-based deployments.
+* 🔍 Integrated SonarQube for code-quality analysis.
+* 🛡️ Integrated Trivy for container security scanning.
+* 📊 Configured Prometheus and Grafana monitoring.
+* 🚨 Implemented proactive infrastructure and application visibility.
 
 ---
 
@@ -177,7 +212,7 @@ Built an automated CI/CD and monitoring solution for containerized applications.
 🔗 **Repository:**
 https://github.com/AkashPedraj/apachewebsite
 
-### Pipeline
+### 🔄 Pipeline
 
 ```text
 GitHub
@@ -195,15 +230,15 @@ Kubernetes
 Live Website
 ```
 
-### Highlights
+### Key Contributions
 
-* Built Kubernetes cluster using **kubeadm**
-* Configured Ansible SSH key-based authentication
-* Automated Docker image build and push
-* Created Jenkins CI/CD pipeline
-* Deployed application using Kubernetes
-* Configured multiple application replicas
-* Exposed application using Kubernetes NodePort
+* Built a Kubernetes cluster using **kubeadm** on AWS EC2.
+* Configured Ansible SSH key-based authentication.
+* Automated Docker image build and push.
+* Created Jenkins CI/CD automation.
+* Deployed application using Kubernetes Deployment.
+* Configured multiple application replicas.
+* Exposed the application using Kubernetes NodePort.
 
 ---
 
@@ -214,15 +249,15 @@ Live Website
 🔗 **Repository:**
 https://github.com/AkashPedraj/FoodAppZomato-DevOps
 
-### Highlights
+### Key Contributions
 
-* 🐳 Containerized application components
-* ☸️ Deployed workloads on **AWS EKS**
-* 🔄 Implemented CI/CD automation
-* 📈 Configured Kubernetes autoscaling
-* 📊 Integrated Prometheus monitoring
-* 📉 Built Grafana dashboards
-* 🚀 Improved deployment efficiency through automation
+* 🐳 Containerized application components.
+* ☸️ Deployed workloads on **AWS EKS**.
+* 🔄 Implemented CI/CD automation.
+* 📈 Implemented Kubernetes autoscaling.
+* 📊 Integrated Prometheus monitoring.
+* 📉 Built Grafana dashboards.
+* 🚀 Improved deployment efficiency through automation.
 
 ---
 
@@ -233,13 +268,13 @@ https://github.com/AkashPedraj/FoodAppZomato-DevOps
 🔗 **Repository:**
 https://github.com/AkashPedraj/OnlineTicketPlatform-MyDeployment
 
-### Highlights
+### Key Contributions
 
-* 🔄 Jenkins CI/CD automation
-* 🏗️ Terraform infrastructure provisioning
-* ⚙️ Ansible configuration management
-* ☸️ Kubernetes deployment on AWS EKS
-* 📦 Automated application deployment workflows
+* 🔄 Created Jenkins CI/CD pipelines.
+* 🏗️ Provisioned infrastructure using Terraform.
+* ⚙️ Configured systems using Ansible.
+* ☸️ Deployed applications on AWS EKS.
+* 📦 Automated application deployment workflows.
 
 ---
 
@@ -250,95 +285,67 @@ https://github.com/AkashPedraj/OnlineTicketPlatform-MyDeployment
 🔗 **Repository:**
 https://github.com/AkashPedraj/AWS3TierApp-MyDeployment
 
-### Highlights
+### Key Contributions
 
-* Designed secure AWS VPC architecture
-* Created public and private subnets
-* Deployed EC2 application infrastructure
-* Integrated Amazon RDS
-* Configured Route 53
-* Implemented IAM least-privilege access
-
----
-
-# 📊 GitHub Statistics
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=AkashPedraj&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="180"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AkashPedraj&layout=compact&theme=tokyonight&hide_border=true" height="180"/>
-
-</div>
-
----
-
-# 🔥 GitHub Contribution Activity
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=AkashPedraj&theme=tokyonight&hide_border=true" />
-
-</div>
-
----
-
-# 🐍 Contribution Graph
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/AkashPedraj/AkashPedraj/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" />
-
-</div>
+* Designed a secure AWS VPC architecture.
+* Created public and private subnets.
+* Deployed EC2-based application infrastructure.
+* Integrated Amazon RDS.
+* Configured Route 53.
+* Implemented IAM least-privilege access.
 
 ---
 
 # 🏆 Key Achievements
 
-| Achievement         | Impact                                                 |
-| ------------------- | ------------------------------------------------------ |
-| 🚀 CI/CD Automation | Reduced deployment effort through automated pipelines  |
-| ☸️ Kubernetes       | Managed containerized workloads on AWS EKS             |
-| 🏗️ Terraform       | Automated repeatable cloud infrastructure provisioning |
-| 🌱 GitOps           | Implemented ArgoCD-based deployment workflows          |
-| 📊 Observability    | Prometheus, Grafana and CloudWatch monitoring          |
-| 🔐 DevSecOps        | Integrated SonarQube, Trivy and IAM security practices |
-| 🐳 Containerization | Docker-based application packaging and deployment      |
+<div align="center">
+
+|   🚀 Area  | 💡 Achievement                                          |
+| :--------: | :------------------------------------------------------ |
+|    CI/CD   | Automated application build and deployment workflows    |
+| Kubernetes | Managed containerized workloads on Amazon EKS           |
+|  Terraform | Automated repeatable AWS infrastructure provisioning    |
+|   GitOps   | Implemented ArgoCD-based deployment workflows           |
+| Monitoring | Prometheus, Grafana and CloudWatch observability        |
+|  DevSecOps | SonarQube, Trivy and IAM security practices             |
+| Automation | Reduced manual operational effort through CI/CD and IaC |
+
+</div>
 
 ---
 
 # 🔐 DevSecOps Approach
 
 ```text
-        Developer
-            │
-            ▼
-        Git Commit
-            │
-            ▼
-      CI/CD Pipeline
-            │
-      ┌─────┴─────┐
-      ▼           ▼
-  SonarQube     Trivy
-  Code Scan   Image Scan
-      │           │
-      └─────┬─────┘
-            ▼
-       Docker Image
-            │
-            ▼
-      Container Registry
-            │
-            ▼
-     Kubernetes / EKS
-            │
-      ┌─────┴─────┐
-      ▼           ▼
- Prometheus     CloudWatch
-      │
-      ▼
-    Grafana
+                 👨‍💻 Developer
+                      │
+                      ▼
+                 Git Commit
+                      │
+                      ▼
+               CI/CD Pipeline
+                      │
+              ┌───────┴───────┐
+              ▼               ▼
+          SonarQube          Trivy
+         Code Quality      Image Scan
+              │               │
+              └───────┬───────┘
+                      ▼
+                 Docker Image
+                      │
+                      ▼
+               Container Registry
+                      │
+                      ▼
+                Kubernetes / EKS
+                      │
+             ┌────────┴────────┐
+             ▼                 ▼
+        Prometheus          CloudWatch
+             │
+             ▼
+          Grafana
 ```
 
 ---
@@ -348,14 +355,14 @@ https://github.com/AkashPedraj/AWS3TierApp-MyDeployment
 * ☸️ Advanced Kubernetes
 * ⛵ Helm & Kubernetes packaging
 * 🌐 Kubernetes Ingress
-* 🔐 Kubernetes security and RBAC
-* 🏗️ Advanced Terraform modules
-* 🌱 Terraform workspace automation
-* ☁️ AWS DevOps services
-* 🔄 AWS CodePipeline
+* 🔐 Kubernetes Security & RBAC
+* 🏗️ Advanced Terraform Modules
+* 🔄 Terraform Workspace Automation
+* ☁️ AWS DevOps Services
+* 🔧 AWS CodePipeline
 * 🛠️ AWS CodeBuild
 * 🚀 AWS CodeDeploy
-* 📈 Production-grade observability
+* 📈 Production-grade Observability
 
 ---
 
@@ -364,8 +371,9 @@ https://github.com/AkashPedraj/AWS3TierApp-MyDeployment
 ### 🎓 Education
 
 **Bachelor of Engineering — Computer Engineering**
+
 GES R.H. Sapat College, Nashik
-**CGPA: 7.5 | 2023**
+**2023 | CGPA: 7.5**
 
 ### 📜 Certifications
 
@@ -376,27 +384,41 @@ GES R.H. Sapat College, Nashik
 
 ---
 
+# 🐍 GitHub Contribution Snake
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/AkashPedraj/AkashPedraj/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" width="100%" />
+
+</div>
+
+---
+
 # 💼 What I Bring
+
+<div align="center">
 
 ```text
 ☁️ Cloud Infrastructure
-        +
+          +
 🏗️ Infrastructure as Code
-        +
+          +
 🔄 CI/CD Automation
-        +
+          +
 ☸️ Kubernetes
-        +
+          +
 🐳 Containerization
-        +
+          +
 🌱 GitOps
-        +
+          +
 📊 Observability
-        +
+          +
 🔐 DevSecOps
-        =
+          =
 🚀 Reliable Cloud-Native Delivery
 ```
+
+</div>
 
 ---
 
@@ -428,7 +450,7 @@ GES R.H. Sapat College, Nashik
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2C5364,50:203A43,100:0F2027&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,50:4B5563,100:9CA3AF&height=130&section=footer" width="100%"/>
 
 ### ⭐ If you find my projects useful, consider giving them a star!
 
